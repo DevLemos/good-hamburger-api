@@ -23,12 +23,15 @@ O objetivo principal é demonstrar boas práticas de desenvolvimento backend, in
 - C#
 - Swagger (OpenAPI)
 
+## Diagrama UML
+![DiagramaUML](Diagramas/fluxo-good-hamburger.drawio.png)
+
 ## 📂 Estrutura do Projeto
 
 ```
 GoodHamburger.Orders.API
 │
-├── Context	    # Classe central do EFCore
+├── Context			# Classe central do EFCore
 ├── Controllers     # Endpoints da API
 ├── Services        # Regras de negócio
 ├── Models          # Entidades do domínio
