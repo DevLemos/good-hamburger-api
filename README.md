@@ -36,3 +36,16 @@ GoodHamburger.Orders.API
 ├── Services        # Regras de negócio
 ├── Models          # Entidades do domínio
 ```
+## Configuração
+
+Crie um arquivo `appsettings.Development.json` com sua string de conexão local.
+
+Exemplo:
+
+```
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=GoodHamburgerDb;Trusted_Connection=True;"
+  }
+}
+```
